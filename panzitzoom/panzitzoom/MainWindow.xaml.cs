@@ -16,6 +16,9 @@ using Ozeki.Media;
 using Ozeki.Camera;
 using System.Globalization;
 using System.Drawing;
+using Ozeki.Vision;
+using System.Diagnostics;
+
 namespace panzitzoom
 {
     /// <summary>
@@ -203,6 +206,30 @@ namespace panzitzoom
         {
             CameraViewer cam = new CameraViewer();
                 cam.Show();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            CameraViewer cam = new CameraViewer();
+            cam.Show();
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            videoViewer.Focus();
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            // HelpView h = new HelpView();
+            //h.Show();
+            Process.Start("http://www.camera-sdk.com/p_6632-supported-cameras.html?fbclid=IwAR12wAzzt_zuSk7n1YOMtLsfMRPmafOoUQTG9bEbxgoeblTBqCGGIocyrY0");
+        }
+
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
+        {
+            AuthorInfoView a = new AuthorInfoView();
+            a.Show();
         }
     }
 }

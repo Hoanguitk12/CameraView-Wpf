@@ -19,3 +19,13 @@ C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\panzitzoom.exe
 C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\panzitzoom.pdb
 C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\CameraViewer.g.cs
 C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\CameraViewer.baml
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\AuthorInfoView.g.cs
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\AuthorInfoView.baml
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\bin\Debug\OzekiComputerVision.dll
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\LoginForm.g.cs
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\LoginForm.baml
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\bin\Debug\System.Data.SqlClient.dll
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\bin\Debug\Newtonsoft.Json.dll
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\bin\Debug\System.Data.SqlClient.xml
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\RegisterView.g.cs
+C:\Users\luna0\source\repos\panzitzoom\panzitzoom\obj\Debug\RegisterView.baml

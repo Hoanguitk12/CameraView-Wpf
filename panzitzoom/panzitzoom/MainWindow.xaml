@@ -7,13 +7,13 @@
          xmlns:controls="clr-namespace:Ozeki.Media;assembly=OzekiSDK"
         mc:Ignorable="d"
         Title="MainWindow" Height="610.487" Width="787.288">
-    <Grid>
-        <GroupBox Header="Live camera" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Height="226" Width="308">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+        <GroupBox Header="Live camera" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Height="226" Width="308">
             <Grid HorizontalAlignment="Left" Height="204" VerticalAlignment="Top" Width="296">
                 <controls:VideoViewerWPF Name="videoViewer" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Black"/>
             </Grid>
         </GroupBox>
-        <GroupBox Header="Connect" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="67" Width="91">
+        <GroupBox Header="Connect" HorizontalAlignment="Left" Margin="15,22,0,0" VerticalAlignment="Top" Height="67" Width="91">
             <Button Content="Connect" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.107,-0.364" Click="Connect_Click" Margin="0,10,0,0"/>
         </GroupBox>
         <GroupBox Header="Control" HorizontalAlignment="Left" Margin="12,313,0,0" VerticalAlignment="Top" Height="154" Width="308">
@@ -81,12 +81,18 @@
                 <Label x:Name="SaturationLabel" HorizontalAlignment="Right"  Grid.Row="2" VerticalAlignment="Center"/>
             </Grid>
         </GroupBox>
-        <Label Content="Ip:" HorizontalAlignment="Left" Margin="106,6,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.911,0.07" Height="29" Width="34"/>
-        <Label Content="Usename:" HorizontalAlignment="Left" Margin="106,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.911,0.07" Height="29" Width="67"/>
-        <Label Content="PassWord:" HorizontalAlignment="Left" Margin="106,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.911,0.07" Height="29" Width="76"/>
-        <TextBox x:Name="txtIp" HorizontalAlignment="Left" Height="23" Margin="178,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="21" Margin="178,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.442,2.3"/>
-        <TextBox x:Name="txtPass" HorizontalAlignment="Left" Height="22" Margin="178,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Ip:" HorizontalAlignment="Left" Margin="106,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.911,0.07" Height="29" Width="34"/>
+        <Label Content="Usename:" HorizontalAlignment="Left" Margin="106,47,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.911,0.07" Height="29" Width="67"/>
+        <Label Content="PassWord:" HorizontalAlignment="Left" Margin="106,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.911,0.07" Height="29" Width="76"/>
+        <TextBox x:Name="txtIp" HorizontalAlignment="Left" Height="23" Margin="174,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="21" Margin="174,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.442,2.3"/>
+        <TextBox x:Name="txtPass" HorizontalAlignment="Left" Height="22" Margin="174,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="CameraViewer" HorizontalAlignment="Left" Margin="350,264,0,0" VerticalAlignment="Top" Width="190" Click="Button_Click"/>
+        <Menu HorizontalAlignment="Left" Height="22" Margin="10,0,0,0" VerticalAlignment="Top" Width="321">
+            <MenuItem Header="CameraLive" Click="MenuItem_Click_1"/>
+            <MenuItem Header="CameraViewer" Click="MenuItem_Click"/>
+            <MenuItem Header="Help" Click="MenuItem_Click_2"/>
+            <MenuItem Header="Author information" Width="114" Click="MenuItem_Click_3"/>
+        </Menu>
     </Grid>
 </Window>
